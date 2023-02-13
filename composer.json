@@ -1,0 +1,22 @@
+{
+    "name": "liuy/test",
+    "description": "test packagist",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Liuy\\Test\\": "src/"
+        },
+        "files" : [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "liuy",
+            "email": "470549046@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+
+}
